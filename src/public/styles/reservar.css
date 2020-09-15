@@ -1,0 +1,15 @@
+*{
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+body{
+    background-color: #0f4c75;
+}
+
+.item{
+    width: 20vw;
+}
+.item:hover{
+    background-color: rgb(251, 254, 255, .3);
+}

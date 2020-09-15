@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/rules.css">
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login">
+        <h1>INICIO DE SESIÓN</h1>
+        <form action="/login" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="email">email:</label></td>
+                        <td><input type="email" name="email" placeholder="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="password">password:</label></td>
+                        <td><input style="background-color: aqua;" type="password" name="password" placeholder="password"></td>
+                    </tr>
+
+                    <tr>
+                        <td><button type="submit">Ingresar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <script>
+        const inputs = document.getElementsByTagName('input')
+        for (const iterator of inputs) {
+        }
+    </script>
+</body>
+
+</html>
