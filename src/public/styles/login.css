@@ -14,10 +14,15 @@ body {
   background-color: #1b262c;
 }
 
+button{
+  width: 15vw;
+}
+
 .login {
   height: auto;
   position: absolute;
   top: 20vh;
+  height: 30vh;
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -26,4 +31,9 @@ body {
   background-color: #3282b8;
   text-align: center;
   border-radius: 15px;
+}
+
+table {
+  border-collapse:separate; 
+  border-spacing: 0 1em;
 }
