@@ -22,6 +22,7 @@ app.use(express.json())
 app.use(
   expressSession({
     secret: "UTS",
+    maxAge: 60000,
     resave: true,
     saveUninitialized: true,
   })
@@ -43,6 +44,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Enter to http://localhost:${port}`);
 });
