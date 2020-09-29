@@ -1,4 +1,4 @@
-const url = "http://localhost:3000";
+const url = "https://arcane-savannah-93531.herokuapp.com/";
 
 document.addEventListener("DOMContentLoaded", function (event) {
   getDataClient();
